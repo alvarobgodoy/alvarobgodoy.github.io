@@ -828,7 +828,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: auto;
+  height: auto !important;
 }
 /* @media screen and (max-width: 768px) {
   .fh5co-blog .blog-bg {
@@ -1327,4 +1327,8 @@ input[type="text"] {
 
 .fh5co-bg-dark {
   color: white;
+}
+
+.tech-row img {
+  height: 77px;
 }
