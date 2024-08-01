@@ -1,0 +1,15 @@
+.navbar {
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                font-weight: bold;
+                color: $dark;
+                transition: .3s;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
