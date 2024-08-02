@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import avatar from "/src/assets/avatar.png"
 import Gradient from "/src/scripts/Gradient"
+import Button from "../Button"
 
 export default function Hero() {
     useEffect(() => {
@@ -20,8 +21,8 @@ export default function Hero() {
                             </div>
                         </div>
                         <p className="section-title-2 subtitle">Web Developer & UX/UI Designer</p>
-                        <a href="#" className='btn btn-dark'>Get in touch</a>
-                        <a href="#" className="btn btn-link-dark">See portfolio</a>
+                        <Button link="#" type="dark">Get in touch</Button>
+                        <Button link="#" type="link-dark">See portfolio</Button>
                     </div>
                     <img className="avatar" src={avatar} alt="Avatar" />
                 </div>
