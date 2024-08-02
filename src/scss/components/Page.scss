@@ -1,0 +1,8 @@
+body #root {
+    position: relative;
+
+    canvas#gradient-canvas {
+        position: absolute;
+        top: 0;
+    }
+}

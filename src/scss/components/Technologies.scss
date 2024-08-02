@@ -1,0 +1,28 @@
+.section_technologies {
+    filter: drop-shadow(0px 5px 35px rgba(0, 0, 0, 0.25)) drop-shadow(0px 5px 35px rgba(0, 0, 0, 0.25));
+    
+    .container {
+        max-width: 912px;
+    }
+
+    .content {
+        padding: 2rem 0;
+    }
+
+    .technologies-list {
+        text-align: center;
+        
+        > div {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            
+            img {
+                max-height: 40px;
+    
+                @include media-breakpoint-up(sm) {
+                    max-height: 60px;
+                }
+            }
+        }
+    }
+}
