@@ -3,7 +3,7 @@
 $port-primary: #1C90FD;
 $port-secondary: #7F30FF;
 
-// colors
+// Colors
 $primary-shade: $port-primary;
 $primary-light: lighten($primary-shade, 37%);
 $primary-dark: darken($primary-shade, 12%);
@@ -45,3 +45,10 @@ $container-max-widths: (
   xl: 960px,
   xxl: 1000px
 );
+
+// Headings
+$headings-margin-bottom:      20px;
+$headings-font-style:         null;
+$headings-font-weight:        bold;
+$headings-line-height:        1.2;
+$headings-color:              inherit;
