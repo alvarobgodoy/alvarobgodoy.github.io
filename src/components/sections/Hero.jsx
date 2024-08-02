@@ -1,6 +1,6 @@
 import { useEffect } from "react"
-import avatar from "../assets/avatar.png"
-import Gradient from "../scripts/Gradient"
+import avatar from "/src/assets/avatar.png"
+import Gradient from "/src/scripts/Gradient"
 
 export default function Hero() {
     useEffect(() => {

@@ -1,13 +1,11 @@
-import curve from "../assets/curve.svg"
-import curveBottom from "../assets/curve-bottom.svg"
-import htmlLogo from "../assets/html.svg"
-import cssLogo from "../assets/css.svg"
-import jsLogo from "../assets/js.svg"
-import bootstrapLogo from "../assets/bootstrap.svg"
-import sassLogo from "../assets/sass.svg"
-import typescriptLogo from "../assets/typescript.svg"
-import reactLogo from "../assets/react.svg"
-import figmaLogo from "../assets/figma.svg"
+import htmlLogo from "/src/assets/html.svg"
+import cssLogo from "/src/assets/css.svg"
+import jsLogo from "/src/assets/js.svg"
+import bootstrapLogo from "/src/assets/bootstrap.svg"
+import sassLogo from "/src/assets/sass.svg"
+import typescriptLogo from "/src/assets/typescript.svg"
+import reactLogo from "/src/assets/react.svg"
+import figmaLogo from "/src/assets/figma.svg"
 
 export default function Technologies() {
     const technologies = [
