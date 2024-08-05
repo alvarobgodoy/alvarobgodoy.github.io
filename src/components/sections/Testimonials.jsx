@@ -1,3 +1,5 @@
+import Button from "../Button"
+
 export default function Testimonials() {
     return (
         <div className="section_testimonials">
@@ -12,10 +14,12 @@ export default function Testimonials() {
                     <div className="col-sm-6">
                         <h4>Dario Godoy</h4>
                         <p>"Always a student at BYU-Idaho, majoring in Applied Technology. I've completed two certificates."</p>
+                        <Button link="#" type="link-dark">Lead Developer @ GCD</Button>
                     </div>
                     <div className="col-sm-6">
                         <h4>Kelly Bell</h4>
                         <p>"Always a student at BYU-Idaho, majoring in Applied Technology. I've completed two certificates."</p>
+                        <Button link="#" type="link-dark">CTO @ GCD</Button>
                     </div>
                 </div>
             </div>
