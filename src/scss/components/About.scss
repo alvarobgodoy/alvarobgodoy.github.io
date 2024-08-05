@@ -1,4 +1,23 @@
 .section_about {
     background-color: white;
     padding: 80px 0;
+
+    .first-row {
+        margin-bottom: 60px;
+        
+        .subtitle {
+            font-weight: bold;
+            color: $primary-shade;
+        }
+    }
+
+    .second-row {
+        .icon {
+            margin-bottom: 20px;
+        }
+        
+        h4 {
+            margin-bottom: 10px;
+        }
+    }
 }
