@@ -24,6 +24,12 @@
     }
 
     .second-row {
+        @include media-breakpoint-down(sm) {
+            .col-sm-6:first-child {
+                margin-bottom: 20px;
+            }
+        }
+        
         .icon {
             margin-bottom: 1.5rem;
         }
@@ -31,6 +37,13 @@
         h6 {
             font-size: 18px;
             margin-bottom: .5rem;
+
+            span {
+                font-weight: normal;
+                font-size: 14px;
+                font-style: italic;
+                padding-left: 5px;
+            }
         }
 
         p {
