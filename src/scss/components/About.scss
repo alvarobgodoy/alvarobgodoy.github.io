@@ -1,6 +1,16 @@
 .section_about {
     background-color: white;
-    padding: 80px 0;
+
+    .container {
+        padding: 80px 15px;
+        border: 1px solid lightgray;
+        border-top: 0;
+        border-bottom: 0;
+
+        @include media-breakpoint-down(sm) {
+            padding: 80px 30px;
+        }
+    }
 
     .first-row {
         margin-bottom: 60px;
@@ -13,11 +23,11 @@
 
     .second-row {
         .icon {
-            margin-bottom: 20px;
+            margin-bottom: 1.5rem;
         }
         
         h4 {
-            margin-bottom: 10px;
+            margin-bottom: .5rem;
         }
     }
 }

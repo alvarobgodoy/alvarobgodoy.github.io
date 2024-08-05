@@ -1,5 +1,8 @@
 @import './variables';
-@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/functions'; // Import Bootstrap functions
+@import 'bootstrap/scss/variables'; // Import Bootstrap variables
+@import 'bootstrap/scss/mixins'; // Import Bootstrap mixins
+@import 'bootstrap/scss/bootstrap'; // Import Bootstrap itself
 @import './components/Page';
 @import './components/Navbar';
 @import './components/Hero';
