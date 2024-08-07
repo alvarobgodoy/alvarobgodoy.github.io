@@ -1,0 +1,130 @@
+.website_showcase {
+    background-color: #281553;
+    border-color: #281553;
+    border-width: 5px;
+    box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1), 0px 30px 45px -30px rgba(50, 50, 93, 0.25);;
+    transition: .2s;
+    margin-bottom: 2rem;
+
+    &:hover {
+        background-color: #482990;
+        border-color: #482990;
+    }
+
+    .card-img-top {
+        img {
+            border-radius: 5px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+
+            @include media-breakpoint-up(lg) {
+                height: 250px;
+            }
+        }
+    }
+    
+    .card-body {
+        .web-technologies {
+            display: flex;
+            gap: 10px;
+
+            img {
+                height: 20px;
+            }
+        }
+    }
+
+    
+}
+
+.modal {
+    .bg-dark {
+        background-color: #482990 !important;
+    }
+
+    .web-technologies {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 1rem;
+
+        img {
+            height: 20px;
+        }
+    }
+
+    .btn-close-white {
+        filter: invert(1);
+    }
+    
+    .carousel {
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin-bottom: 2rem;
+        overflow: hidden;
+
+        button.carousel-control-prev {
+            background-color: #482990;
+            left: 1rem;
+            opacity: 1 !important;
+        }
+
+        button.carousel-control-next {
+            background-color: #482990;
+            right: 1rem;
+            opacity: 1 !important;
+        }
+    }
+
+    .modal-body {
+        @include media-breakpoint-up(lg) {
+            padding: 1rem 3rem;
+        }
+
+        h3 {
+            margin-bottom: 1rem;
+            
+            span {
+                font-weight: normal;
+                font-size: 14px;
+                font-style: italic;
+                padding-left: 5px;
+
+                @include media-breakpoint-down(md) {
+                    display: block;
+                    padding: 0;
+                    margin: 1rem 0;
+                }
+            }
+        }
+
+        .custom-carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .2s;
+        
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                width: 30px;
+                height: 30px;
+                background-size: 100%, 100%;
+            }
+        
+            &:hover {
+                background-color: #6237c6;
+            }
+        
+            &:focus {
+                outline: none;
+            }
+        }   
+    }
+}

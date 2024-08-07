@@ -20,7 +20,7 @@ export default function Technologies() {
     ]
 
     const techElements = technologies.map(tech => {
-        return <div className="col-3 col-md"><img src={tech.img} alt={tech.name} title={tech.name + " logo"} /></div>
+        return <div className="col-3 col-md" key={tech.name} ><img src={tech.img} alt={tech.name} title={tech.name + " logo"} /></div>
     })
     
     return (

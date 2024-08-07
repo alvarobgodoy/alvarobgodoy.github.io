@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-.btn-primary, .btn-secondary, .btn-success, .btn-danger, .btn-warning, .btn-info, .btn-light, .btn-dark, .btn-link-dark  {
+.btn-primary, .btn-secondary, .btn-success, .btn-danger, .btn-warning, .btn-info, .btn-light, .btn-dark, .btn-link-dark, .btn-link-light  {
     padding-left: 17px;
     
     svg {
@@ -11,7 +11,7 @@
         width: 10px;
         height: 10px;
         margin: 0 5px 0 8px;
-        transition: .1s;
+        transition: .2s;
     }
 
     &:hover svg {
@@ -24,7 +24,11 @@
 }
 
 .btn-light {
-    color: #000;
+    color: $dark;
+
+    svg {
+        fill: $dark;
+    }
 }
 
 .btn-secondary, .btn-success {

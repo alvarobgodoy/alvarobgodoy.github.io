@@ -8,7 +8,7 @@ export default function Testimonials() {
                 <div className="row first-row">
                     <div className="col-12">
                         <p className="subtitle">Testimonials</p>
-                        <h2>People I have worked with</h2>
+                        <h2>People I have worked with:</h2>
                     </div>
                 </div>
                 <div className="row second-row">

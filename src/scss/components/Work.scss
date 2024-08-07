@@ -1,3 +1,22 @@
 .section_work {
     padding: 80px 0;
+
+    .row-heading {
+        margin-bottom: 2.5rem;
+        
+        .info {
+            margin: 0;
+            
+            @include media-breakpoint-up(md) {
+                max-width: 60%;
+            }
+        }
+    }
+
+    .row {
+        .subtitle {
+            color: $red;
+            font-weight: bold;
+        }
+    }
 }
