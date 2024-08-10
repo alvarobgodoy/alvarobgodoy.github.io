@@ -17,7 +17,7 @@ export default function Hero() {
                         <div className="gradient-area">
                             <div className="gradient-title-area">
                                 <h1 className="text text-under-blended section-title-1">Hi, <br /> I'm Álvaro!</h1>
-                                <div className="text text-under text-under-overlay section-title-1">Hi <br /> I'm Alvaro</div>
+                                <div className="text text-under text-under-overlay section-title-1">Hi, <br /> I'm Álvaro!</div>
                             </div>
                         </div>
                         <p className="section-title-2 subtitle">Web Developer & UX/UI Designer</p>

@@ -9,14 +9,14 @@ export default function Work() {
     })
     
     return (
-        <div className="section_work bg-dark text-light">
+        <div className="section_work bg-dark text-white">
             <div className="container">
                 <div className="row row-heading">
                     <p className="subtitle">What I've worked on</p>
                     <h2>Portfolio</h2>
                     <p className="info">With almost 2 years of experience as a web developer these are some of the projects I've actively worked on</p>
                 </div>
-                <div className="row mb-5">
+                <div className="row">
                     {WebsiteShowcaseElements}
                 </div>
             </div>

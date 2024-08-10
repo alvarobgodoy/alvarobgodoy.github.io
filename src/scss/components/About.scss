@@ -3,7 +3,7 @@
 
     .container {
         padding: 80px 15px;
-        border: 1px solid lightgray;
+        border: 1px dashed lightgray;
         border-top: 0;
         border-bottom: 0;
 
@@ -15,6 +15,20 @@
     .first-row {
         margin-bottom: 60px;
         
+        > div:first-child {
+            padding-right: 5rem;
+
+            @include media-breakpoint-down(md) {
+                margin-bottom: 2.5rem;
+            }
+        }
+
+        .console {
+            box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            // https://carbon.now.sh/?bg=rgba%28171%2C184%2C195%2C0%29&t=theme%3Adjzofcnhxg&wt=none&l=javascript&width=435&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=import%2520%257B%2520Developer%2520%257D%2520from%2520%27professional-roles%27%253B%250A%250Aclass%2520Alvaro%2520extends%2520Developer%2520%257B%250A%2520%2520constructor%28%29%2520%257B%250A%2520%2520%2520%2520super%28%29%253B%250A%2520%2520%2520%2520this.name%2520%253D%2520%2522Alvaro%2520Benjamin%2520Rodriguez%2522%253B%250A%2520%2520%2520%2520this.role%2520%253D%2520%2522Web%2520Developer%2522%253B%250A%2520%2520%2520%2520this.skills%2520%253D%2520%255B%27JavaScript%27%252C%2520%250A%2520%2520%2520%2520%2520%2520%27React%27%252C%2520%250A%2520%2520%2520%2520%2520%2520%27Node.js%27%252C%2520%250A%2520%2520%2520%2520%2520%2520%27CSS%252FSASS%27%252C%2520%250A%2520%2520%2520%2520%2520%2520%27Bootstrap%25205%27%250A%2520%2520%2520%2520%255D%253B%250A%257D%250A%250Aconst%2520me%2520%253D%2520new%2520Alvaro%28%29%253B%250A%250A
+        }
+
         .subtitle {
             font-weight: bold;
             color: $primary-shade;

@@ -8,6 +8,14 @@
 	z-index: -100000;
 }
 
+.section_top {
+	color: $dark;
+
+	.btn-link-dark {
+		color: $dark;
+	}
+}
+
 .section-title-1 {
     font-size:64px;
     font-weight:700;

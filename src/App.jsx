@@ -4,6 +4,8 @@ import Technologies from './components/sections/Technologies'
 import About from './components/sections/About'
 import Testimonials from './components/sections/Testimonials'
 import Work from './components/sections/Work'
+import Contact from './components/sections/Contact'
+import Footer from './components/sections/Footer'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <About />
       <Testimonials />
       <Work />
+      <Contact />
+      <Footer />
     </>
   )
 }

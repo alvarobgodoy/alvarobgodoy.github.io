@@ -1,5 +1,6 @@
 import Button from "../Button"
 import CheckImg from "/src/assets/check.svg"
+import ConsoleImg from "/src/assets/console.png"
 
 export default function About() {
     return (
@@ -13,7 +14,7 @@ export default function About() {
                         <Button link="#" type="primary">See portfolio</Button>
                     </div>
                     <div className="col-md-6">
-                        <p>console goes here</p>
+                        <img src={ConsoleImg} alt="Console Image" className="img-fluid console" />
                     </div>
                 </div>
                 <div className="row second-row">
