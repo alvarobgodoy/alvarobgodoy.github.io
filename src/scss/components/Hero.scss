@@ -1,8 +1,8 @@
 #gradient-canvas {
-    --gradient-color-1: #6ec3f4;
-    --gradient-color-2: #3a3aff;
-    --gradient-color-3: #7F30FF;
-    --gradient-color-4: #e3ab1d;
+    --gradient-color-1: #FEE440;
+    --gradient-color-2: #1dffd2;
+    --gradient-color-3: #1DFF5C;
+    --gradient-color-4: #cbfe40;
 
 	position: absolute;
 	z-index: -100000;
@@ -36,7 +36,13 @@
 	letter-spacing: 2px;
 	min-height: 200px;
 	display: flex;
-	align-items: flex-end;
+	flex-direction: column;
+	gap: 10px;
+
+	img {
+		max-width: 100px;
+		margin-left: 20px;
+	}
 }
 
 .text-above {
@@ -52,7 +58,13 @@
 }
 .text-under-blended {
 	// color: #3a3a3a;
-	mix-blend-mode: color-burn;
+	span.hi, span.my-name {
+		mix-blend-mode: color-burn;
+	}
+}
+
+span.hi-container {
+	display: flex;
 }
 
 .text-under-overlay {
@@ -78,7 +90,7 @@
 
 .avatar {
 	position: absolute;
-    bottom: -55px;
+    bottom: -10px;
     z-index: -10;
     right: calc(50% - 169px);
 

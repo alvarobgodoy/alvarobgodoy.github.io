@@ -15,7 +15,7 @@ export default function Testimonials() {
                     <div className="col-sm-6">
                         <img className="icon" src={PersonIcon} alt="Person Icon" />
                         <h6>Dario Godoy <span>Lead Developer @ GCD</span></h6>
-                        <p>"Always a student at BYU-Idaho, majoring in Applied Technology. I've completed two certificates."</p>
+                        <p>"I had the privilege of directly managing Álvaro Rodriguez at Gotham City Drupal, where he worked as a Frontend Web Developer for more than a year. Álvaro quickly showed his strong skills in SCSS, Bootstrap, and Drupal, making him a valuable member of our team."</p>
                         <Button link="https://www.linkedin.com/in/dario-godoy-b870a6b/" type="link-dark">See LinkedIn</Button>
                     </div>
                     <div className="col-sm-6">

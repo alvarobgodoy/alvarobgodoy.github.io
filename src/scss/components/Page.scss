@@ -1,5 +1,6 @@
 body #root {
     position: relative;
+    overflow: hidden;
 
     canvas#gradient-canvas {
         position: absolute;
@@ -22,5 +23,11 @@ h1, h2, h3, h4, h5, h6 {
 .text-white {
     h1, h2, h3, h4, h5, h6 {
         color: #fff;
+    }
+}
+
+.container-big {
+    @include media-breakpoint-up(xl) {
+        max-width: 1320px;
     }
 }
