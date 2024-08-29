@@ -13,13 +13,13 @@ export default function Navbar() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-center flex-grow-1">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">About me</a>
+                                <a className="nav-link" aria-current="page" href="#section_about">About me</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Portfolio</a>
+                                <a className="nav-link" href="#section_work">Portfolio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Contact</a>
+                                <a className="nav-link" href="#section_contact">Contact</a>
                             </li>
                         </ul>
                     </div>

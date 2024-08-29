@@ -29,19 +29,26 @@
 	}
 }
 
+.gradient-area {
+	margin-bottom: 10px;
+}
+
 .text {
 	line-height: 1;
 	margin: var(--gradient-title-margin) 0 0 0;
 	text-transform: none;
 	letter-spacing: 2px;
-	min-height: 200px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 
 	img {
-		max-width: 100px;
+		max-width: 65px;
 		margin-left: 20px;
+
+		@include media-breakpoint-up(md) {
+			max-width: 100px;
+		}
 	}
 }
 

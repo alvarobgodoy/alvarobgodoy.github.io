@@ -5,7 +5,7 @@ const data = [
         teaserImg: "/tech/gcd.png",
         name: "Gotham City Drupal",
         teaserDescription: "GCD provides a variety of services, including strategy and development, UX/UI design, and website maintenance. It's a full-service agency that can handle all aspects of your Drupal project.",
-        technologies: ["html.svg", "css.svg", "js.svg"],
+        technologies: ["bootstrap.svg", "sass.svg", "drupal.svg", "html.svg", "css.svg", "js.svg"],
         fullImg1: "/tech/gcd.png",
         fullImg2: "/tech/gcd.png",
         fullImg3: "/tech/gcd.png",
@@ -17,27 +17,14 @@ const data = [
         link: "https://www.findknowdo.com/",
         teaserImg: "/tech/fkd.png",
         name: "Find Know Do",
-        teaserDescription: "GCD provides a variety of services, including strategy and development, UX/UI design, and website maintenance. It's a full-service agency that can handle all aspects of your Drupal project.",
-        technologies: ["html.svg", "css.svg", "js.svg"],
+        teaserDescription: "FindKnowDo covers the ins and outs of U.S. financial regulatory law. It was founded by Steven Lofchie, described by The Best Lawyers in America as one of the nation's leading lawyers.",
+        technologies: ["bootstrap.svg", "sass.svg", "drupal.svg", "html.svg", "css.svg", "js.svg"],
         fullImg1: "/tech/fkd.png",
         fullImg2: "/tech/fkd.png",
         fullImg3: "/tech/fkd.png",
-        fullDescription: "Gotham City Drupal is a comprehensive Drupal development collective that partners with businesses to enhance their websites and overall digital presence. They offer a full range of services from strategy and development to deployment, ensuring continuous improvement for your site, users, and business. Using an Agile/Scrum-based approach, they work closely with clients to identify goals, develop features, and create user-centric designs, ultimately implementing projects that drive growth and success. Whether you're a business seeking to improve your online platform or a developer looking to collaborate, Gotham City Drupal is equipped to help you achieve your objectives.",
+        fullDescription: "FindKnowDo.com is a specialized legal and regulatory research platform primarily serving the financial services industry. It is the home of the Cadwalader Cabinet, a comprehensive legal resource created by Cadwalader, Wickersham & Taft LLP. The platform provides in-depth legal research, analysis, and regulatory intelligence tailored for professionals working in financial markets. Subscribers to FindKnowDo.com include government regulators, major financial firms, and industry leaders who rely on the platform for accurate and timely information on financial regulations, securities laws, and related legal matters. The website offers a vast library of articles, updates on regulatory developments, and tools to navigate complex legal environments. The platform was developed under the leadership of Steven Lofchie, a highly regarded lawyer in financial services regulation and derivatives, who envisioned it as a one-stop resource for industry professionals.",
         timeWorked: "3 Months"
     },
-    {
-        id: 3,
-        link: "https://www.gothamcitydrupal.com/",
-        teaserImg: "/tech/gcd.png",
-        name: "Gotham City Drupal 3",
-        teaserDescription: "GCD provides a variety of services, including strategy and development, UX/UI design, and website maintenance. It's a full-service agency that can handle all aspects of your Drupal project.",
-        technologies: ["html.svg", "css.svg", "js.svg"],
-        fullImg1: "/tech/gcd.png",
-        fullImg2: "/tech/gcd.png",
-        fullImg3: "/tech/gcd.png",
-        fullDescription: "Gotham City Drupal is a comprehensive Drupal development collective that partners with businesses to enhance their websites and overall digital presence. They offer a full range of services from strategy and development to deployment, ensuring continuous improvement for your site, users, and business. Using an Agile/Scrum-based approach, they work closely with clients to identify goals, develop features, and create user-centric designs, ultimately implementing projects that drive growth and success. Whether you're a business seeking to improve your online platform or a developer looking to collaborate, Gotham City Drupal is equipped to help you achieve your objectives.",
-        timeWorked: "3 Months"
-    }
 ]
 
 export default data

@@ -10,7 +10,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="section_contact">
+        <div className="section_contact" id="section_contact">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 first-col">

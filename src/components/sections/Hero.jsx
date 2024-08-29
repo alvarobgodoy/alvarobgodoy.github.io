@@ -32,8 +32,8 @@ export default function Hero() {
                             </div>
                         </div>
                         <p className="section-title-2 subtitle">Web Developer & UX/UI Designer</p>
-                        <Button link="#" type="dark">Get in touch</Button>
-                        <Button link="#" type="link-dark">Download CV</Button>
+                        <Button link="#section_contact" type="dark">Get in touch</Button>
+                        <Button link="/alvaro-resume.pdf" download type="link-dark">Download CV</Button>
                     </div>
                     <img className="avatar" src={avatar} alt="Avatar" />
                 </div>
