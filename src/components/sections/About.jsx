@@ -12,7 +12,7 @@ export default function About() {
                     <div className="col-md-6">
                         <p className="subtitle">Get to know</p>
                         <h2>About Me</h2>
-                        <p>My self-motivation and productive habits allow me to work remotely, always delivering quality work and doing it on time.  I had the opportunity to work for US-based clients for almost 1 year. I used technologies such as Sass, Bootstrap, Jquery, Drupal...</p>
+                        <p>I'm Álvaro Benjamin Rodriguez, a creative individual with a passion for bringing ideas to life through technology. I thrive on solving problems and collaborating with others to create meaningful experiences. Whether it's through design or development, my goal is to make a positive impact in the digital world...</p>
                         <Button link="#section_work" target="" type="primary">See portfolio</Button>
                     </div>
                     <div className="col-md-6">

@@ -31,7 +31,7 @@ export default function Hero() {
                                 </div>
                             </div>
                         </div>
-                        <p className="section-title-2 subtitle">Web Developer & UX/UI Designer</p>
+                        <p className="section-title-2 subtitle">Web Developer & Tech Enthusiast</p>
                         <Button link="#section_contact" type="dark">Get in touch</Button>
                         <Button link="/alvaro-resume.pdf" download type="link-dark">Download CV</Button>
                     </div>
